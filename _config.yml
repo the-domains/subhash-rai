@@ -1,28 +1,40 @@
-name: subhash-rai
 favicon: null
-layout_spectrum: 0.08514767861925066
-typography_spectrum: 0.3492882694117725
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: subhash-rai
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#9D2D3C'
-    - '#DDE4DD'
-    - '#BCAB47'
-    - '#6B574B'
-    - '#160600'
+  saturation: 0.858598975231871
   brandStrength: 0.4279082021676004
   lightness: 0.1731425125617534
-  saturation: 0.858598975231871
+  brandColors:
+    - '#1C1819'
+    - '#FFFFFF'
+    - '#C9C9C7'
+    - '#8F8178'
+    - '#C4A787'
   rhythmicContrast: 0.5479725948534906
-purpose: []
+typography_spectrum: 0.3492882694117725
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.08514767861925066
+analytics:
+  twitter: null
+  google: null
+  facebook: null
